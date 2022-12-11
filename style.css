@@ -73,13 +73,22 @@ body{
   margin-top: 16%;
   font-size: 40px;
  }
- .header-text button{
+ .resume{
+  margin: auto;
+  background-color: #0e6633;
+  color: #fff;
+  font-size: 22px;
+  padding: 4px 6px;
+  border-radius: 4px;
+ 
+ }
+ /* .header-text button{
   margin: auto;
   background-color: #0e6633;
   margin-left: 400px;
   width: 10%;
   /* color: #fff; */
-  font-size: 20px;
+  /* font-size: 20px;
   border: none;
   border-radius: 6px;
   padding: 10px;
@@ -97,7 +106,7 @@ body{
  .header-text button a:hover{
   color: #0e6633;
   background-color: #fff;
- }
+ } */ 
  .header-text h1{
   margin-top: 20px;
  }
@@ -287,6 +296,7 @@ color: #0e6633;
 }
 .services .boxes {
   display: grid;
+  /* grid-template-columns: repeat(2,1000px); */
   justify-content: center;
   justify-items: center;
 }
