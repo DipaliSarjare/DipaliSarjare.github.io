@@ -292,13 +292,15 @@ color: #0e6633;
   font-size: 60px;
   color: #0e6633;
   margin-top: 50px;
+  margin-bottom: 30px;
 
 }
 .services .boxes {
   display: grid;
-  /* grid-template-columns: repeat(2,1000px); */
+  grid-template-columns: repeat(2,550px);
   justify-content: center;
   justify-items: center;
+  
 }
 
 #linkss {
@@ -324,8 +326,8 @@ color: #0e6633;
 }
 
 .services .boxes .box {
-  margin: 20px 0;
-  width: calc(100% / 3 - 20px);
+  margin: 15px;
+  width: 86%;
   height: 500px;
   text-align: center;
   border-radius: 12px;
@@ -334,6 +336,7 @@ color: #0e6633;
   padding: 20px 10px;
   cursor: default;
   transition: all 0.4s ease;
+
 }
 
 .services .boxes .box:hover {
@@ -372,7 +375,29 @@ color: #0e6633;
   color: #ffffff;
 }
 
-
+/* Stats */
+.mystats h1{
+  text-align: center;
+  font-size: 65px;
+  color: #0e6633;
+}
+.stats_box{
+  display: flex;
+  margin: 20px;
+ 
+}
+.stats_box div img{
+  width:99% ;
+  height: 90%;
+}
+.satas_box1 h3{
+  text-align: center;
+  font-size: 35px;
+}
+.satas_box1 img{
+width: 97%;
+margin: 20px;
+}
 /* contact section styling */
 
 .max-width .contact-content{
