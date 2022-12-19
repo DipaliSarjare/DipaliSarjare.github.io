@@ -571,8 +571,10 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+
+
 /* responsive */
-@media (max-width: 947px) {
+/* @media (max-width: 947px) {
   .menu-btn {
     display: block;
     z-index: 999;
@@ -684,5 +686,5 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
-}
+} */
 
