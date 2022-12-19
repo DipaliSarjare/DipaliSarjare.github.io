@@ -82,31 +82,7 @@ body{
   border-radius: 4px;
  
  }
- /* .header-text button{
-  margin: auto;
-  background-color: #0e6633;
-  margin-left: 400px;
-  width: 10%;
-  /* color: #fff; */
-  /* font-size: 20px;
-  border: none;
-  border-radius: 6px;
-  padding: 10px;
- }
- .header-text button a{
-  color: #fff;
-  text-decoration: none;
- }
- .header-text button:hover{
-  cursor: pointer;
-  border: 1px solid #0e6633;
-  background-color: #fff;
-  color: #0e6633;
- }
- .header-text button a:hover{
-  color: #0e6633;
-  background-color: #fff;
- } */ 
+ 
  .header-text h1{
   margin-top: 20px;
  }
@@ -126,6 +102,7 @@ body{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 20px;
  }
  .about-col-1{
   flex-basis: 35%;
@@ -146,10 +123,10 @@ body{
  }
 
  .about-col-2 p{
-  font-size: 22px;
+  font-size: 20px;
   text-align: justify;
   color: #080808;
-  line-height: 30px;
+  line-height: 28px;
  }
 
 /* Skills Section */
@@ -175,12 +152,12 @@ body{
   border-radius: 50% 8%;
   color: #ffff;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 210px;
   box-shadow:  rgba(22, 21, 22, 0.918) 6px 10px 40px -12px;
  }
 
- #tech_skill img{
+ #tech_skill div img{
   width: 100%;
   margin-bottom: 5px;
  }
@@ -354,7 +331,11 @@ color: #0e6633;
   margin: 0 auto 10px auto;
   transition: all 0.4s ease;
 }
-
+.topic{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 .imgs {
   width: 100%;
 }
