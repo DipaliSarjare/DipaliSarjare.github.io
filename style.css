@@ -27,7 +27,7 @@ html{
 
 .navbar.sticky {
     padding: 15px 0;
-    background: #0D7377
+    background:#221F6C
 
 
 ;
@@ -55,17 +55,17 @@ html{
 }
 
 .navbar .logo a {
-    color: #000000;
+    color: #ffff;
     font-size: 35px;
     font-weight: 600;
     /* margin-left: -60px; */
 }
 
-.navbar .logo a span {
+/* .navbar .logo a span {
     /* color: crimson; */
-    color: #0D7377
+    /* color:#221F6C
 ;
-}
+} */ 
 
 .navbar .menu li {
     list-style: none;
@@ -73,7 +73,7 @@ html{
 }
 
 .navbar .menu li a {
-    color: #000000;
+    color: #ffff;
     font-size: 22px;
     font-weight: 800;
     margin-left: 25px;
@@ -81,10 +81,8 @@ html{
 
 .navbar .menu li a:hover {
     /* color: crimson; */
-    color:#0D7377
-;
-    border-bottom: 3px solid #0D7377
-;
+    color:#e6990b;
+    border-bottom: 3px solid#e6990b;
 }
 
 
@@ -106,14 +104,14 @@ html{
 
 ; */
     /* background-image: url(./image/backgroundimg.jpg); */
-    background: url("./image/backgroundimg.jpg") top center no-repeat;
+    background: url("./image/backgroundimg1.jpg") top center no-repeat;
     background-size: cover;
     /* display: flex; */
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
     height: 100vh;
-    color: #080808;
+    color: #ffff;
     min-height: 600px;
     font-family: 'ubuntu', sans-serif;
    
@@ -133,27 +131,29 @@ html{
     font-size: 50px;
     margin-left: 10px;
     font-weight: 600;
+    color: #e6990b;
 }
 
 .home .home-content .text-2 {
     font-size: 65px;
     font-weight: 500;
     margin-left: -3px;
-    color: #0D7377
+    color: #e6990b;
 ;
 }
 
 .home .home-content .text-3 {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: -3px;
+    color: #a50670;
 }
 
 .home .home-content .text-3 span {
     margin-left: -3px;
     /* color: crimson; */
     /* color:#00ffff; */
-    font-weight: 300;
+    font-weight: 600;
 }
 
 
@@ -161,7 +161,7 @@ html{
 
 .about{
     /* background: rgb(28, 28, 40); */
-    background:#cfe4e3 ;
+    background:#cfe4e3;
 
 }
 section {
@@ -240,10 +240,10 @@ section {
     font-size: 20px;
     display: inline-block;
     /* background-color: crimson; */
-    background-color: #0D7377
+    background-color:#221F6C
 ;
     /* color: rgb(167, 165, 165); */
-    color: black;
+    color: #ffff;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
@@ -274,8 +274,8 @@ section {
       padding-bottom: 20px;
       text-align: center;
       font-family: 'ubuntu', sans-serif;
-      color: #ffff
-;
+      color: #ffff;
+
       
   }
   
@@ -285,8 +285,7 @@ section {
       font-weight: 500;
       margin-bottom: 20px;
       font-family: 'ubuntu', sans-serif;
-      color: #ffff
-;
+      color: #ffff;
   }
 
   .skills h2 span{
@@ -304,12 +303,9 @@ section {
   }
   .skills .tools_and_tech img,
   .tech-stacks img {
-      width: 100px;
+     height: 100px;
       padding: 10px;
-    background: #0D7377
-
-
-;
+      background: #cfe4e3;
       border-radius: 6px;
       transition: all 0.4s cubic-bezier(0.38, 0.37, 0.17, 0.83);
   }
@@ -347,7 +343,7 @@ section {
 .project .project1{
     width: 100%;
     height: 350px;
-    background: #0D7377
+    background:#221F6C;
 
 
 ;   
@@ -376,20 +372,22 @@ section {
 }
 
 .project .project1 .right .head{
-    font-size: 30px;
+    font-size: 32px;
     font-family: 'Poppins', sans-serif;
-    color: #ffff
+    color: #ffff;
 ;
     margin-bottom: 10px;
 
 }
 .project .project1 .right .sub-head a {
-    font-size:17px;
+    font-size:18px;
     margin-top: 10px;
     margin-left:5px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    color: #ffff
+    color:  #e6990b;
+    border-bottom:3px solid #e6990b;
+    
 ;
     
 
@@ -401,7 +399,7 @@ section {
     font-size:17px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    color: #ffff
+    color: #ffff;
 ;
 }
 
@@ -412,7 +410,7 @@ section {
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
     margin-top: 15px;
-    color: #ffff
+    color: #ffff;
 ;
 
 }
@@ -430,7 +428,7 @@ section {
 /* contact section */
 
 .contact{
-    background: #0D7377;
+    background:#221F6C;
 
 }
 
@@ -452,7 +450,7 @@ section {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #080808;
+    color: #ffff;
     
 }
 
@@ -485,7 +483,7 @@ section {
 
 .contact .contact-content .git .sub-title a {
     /* color: rgb(167, 165, 165); */
-    color: #011023;
+    color: #e6990b;
     font-weight: 300;
     
 }
@@ -574,7 +572,7 @@ section {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color:#0D7377
+    background-color:#a50670;
 ;
     /* right: 30px; */
     left: 30px;
@@ -594,7 +592,7 @@ section {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color:#0D7377
+    background-color:#a50670;
 ;
     /* right: 30px; */
     left: 30px;
@@ -614,7 +612,7 @@ section {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color: #0D7377
+    background-color:#a50670;
 ;
     /* right: 30px; */
     left: 30px;
@@ -1077,6 +1075,14 @@ footer span a{
   #github-stats {
     padding: 100px 10px;
   }
+  /* #github-stats div:last-child{
+    margin: auto;
+    border-radius: 10px;
+    /* position: relative; */
+    /* overflow: hidden;
+    cursor: pointer;
+  
+  } */ 
   
   .github-stats-list {
     display: grid;
