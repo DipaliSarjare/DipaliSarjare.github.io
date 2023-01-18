@@ -240,8 +240,7 @@ section {
     font-size: 20px;
     display: inline-block;
     /* background-color: crimson; */
-    background-color:#221F6C
-;
+    background-color:#221F6C;
     /* color: rgb(167, 165, 165); */
     color: #ffff;
     font-weight: 500;
@@ -264,7 +263,7 @@ section {
 
 /* skills-section======================================================================================================================= */
 .skills.section-padding {
-    background: #1c1c28;
+    background: #221F6C;
       
   }
   .skills h3 {
