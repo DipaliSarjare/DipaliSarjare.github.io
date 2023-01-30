@@ -1074,20 +1074,13 @@ footer span a{
   #github-stats {
     padding: 100px 10px;
   }
-  /* #github-stats div:last-child{
-    margin: auto;
-    border-radius: 10px;
-    /* position: relative; */
-    /* overflow: hidden;
-    cursor: pointer;
-  
-  } */ 
   
   .github-stats-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin-top: 50px;
     grid-gap: 40px;
+    
   }
   
   
