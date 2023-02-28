@@ -772,8 +772,9 @@ footer span a{
     .project .project1 .right{
         flex: 100%;
        justify-content: center;
-
+       /* text-align:center; */
        margin: 0 auto 60px;
+       margin-left: 10px;
 
     }
 
