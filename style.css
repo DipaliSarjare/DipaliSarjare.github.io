@@ -1078,7 +1078,7 @@ footer span a{
   .github-stats-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    margin-top: 50px;
+    margin-top: 40px;
     grid-gap: 40px;
     
   }
