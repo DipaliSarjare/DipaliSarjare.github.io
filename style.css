@@ -342,10 +342,7 @@ section {
 .project .project1{
     width: 100%;
     height: 350px;
-    background:#221F6C;
-
-
-;   
+    background:#221F6C;   
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
@@ -374,7 +371,6 @@ section {
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     color: #ffff;
-;
     margin-bottom: 10px;
 
 }
@@ -386,9 +382,6 @@ section {
     font-family: 'Poppins', sans-serif;
     color:  #e6990b;
     border-bottom:3px solid #e6990b;
-    
-;
-    
 
 }
 .project .project1 .right p {
@@ -410,7 +403,6 @@ section {
     font-weight: 550;
     margin-top: 15px;
     color: #ffff;
-;
 
 }
 .project .project1 .right .sub-head2 img{
@@ -445,7 +437,7 @@ section {
     margin-bottom: 70px;
 } */
 
-.contact .contact-content .text {
+.contact .left .text {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -453,34 +445,34 @@ section {
     
 }
 
-.contact .contact-content .left .icons {
+.contact  .left .icons {
     margin: 10px 0;
-  color: #ffffff;
+    color: #ffffff;
 
 
 }
 
-.contact .contact-content .rows {
+.contact .rows {
     display: flex;
     height: 65px;
     align-items: center;
 }
 
-.contact .contact-content .rows .git {
+.contact  .rows .git {
     margin-left: 30px;
 }
 
-.contact .contact-content .rows i {
-    font-size: 60px;
+.contact  .rows i {
+    font-size: 50px;
 }
 
-.contact .contact-content .git .head {
+.contact .git .head {
     font-size: 20px;
     font-weight:400;
     color: #ffff;
 }
 
-.contact .contact-content .git .sub-title a {
+.contact .git .sub-title a {
     /* color: rgb(167, 165, 165); */
     color: #e6990b;
     font-weight: 300;
@@ -561,14 +553,18 @@ section {
     background: none;
 }
 
-
+#contact .max-width{
+    display: flex;
+    gap: 40px;
+   
+}
 /* ---scroll up--- */
 .scroll-up, .scroll-up1, .scroll-up2, a{
     color: #fff; 
    
 }
 .scroll-up{
-    position: fixed;
+    position: sticky;
     height: 45px;
     width: 42px;
     background-color:#a50670;
@@ -588,7 +584,7 @@ section {
     transition: all 0.3s ease;
 }
 .scroll-up1{
-    position: fixed;
+    position: sticky;
     height: 45px;
     width: 42px;
     background-color:#a50670;
@@ -608,7 +604,7 @@ section {
     transition: all 0.3s ease;
 }
 .scroll-up2{
-    position: fixed;
+    position: sticky;
     height: 45px;
     width: 42px;
     background-color:#a50670;
