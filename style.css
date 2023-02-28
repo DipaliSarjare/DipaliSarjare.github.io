@@ -282,7 +282,7 @@ section {
       text-align: center;
       font-size: 40px;
       font-weight: 500;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       font-family: 'ubuntu', sans-serif;
       color: #ffff;
   }
@@ -772,6 +772,7 @@ footer span a{
     .project .project1 .right{
         flex: 100%;
        justify-content: center;
+
        margin: 0 auto 60px;
 
     }
@@ -822,6 +823,15 @@ footer span a{
 
 
 @media only screen and (min-width: 280px) and (max-width:388px){
+
+  
+
+    .about .about-content .left img {
+        height: 270px;
+        width: 270px;
+        object-fit: cover;
+
+    }
     .skills .tools{
         max-width: 100%;
         width: auto;
